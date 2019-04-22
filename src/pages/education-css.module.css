@@ -1,0 +1,41 @@
+.education {
+  //display: flex;
+  justify-content: flex-start;
+  align-items: left;
+  margin: 0 auto 12px auto;
+}
+
+.education:last-child {
+  margin-bottom: 0;
+}
+
+.leonardwood {
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  margin: 0;
+}
+
+.school {
+  width: 400px;
+  height: 300px;
+  margin-bottom: 0;
+}
+
+.description {
+  display: inline-block;
+  flex: 1;
+  vertical-align: top;
+  width: 450px;
+  margin-left: 18px;
+  padding: 12px;
+}
+
+.schoolname {
+  margin: 0 0 12px 0;
+  padding: 0;
+}
+
+.excerpt {
+  margin: 0;
+}

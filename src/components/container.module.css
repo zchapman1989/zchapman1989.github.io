@@ -1,0 +1,10 @@
+.container {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px;
+  border: 1px solid black;
+}
+.container > h1 {
+  text-align: center;
+}

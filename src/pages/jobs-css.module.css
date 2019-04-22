@@ -1,0 +1,42 @@
+.job {
+  //display: flex;
+  justify-content: flex-start;
+  align-items: left;
+  margin: 0 auto 12px auto;
+}
+
+.job:last-child {
+  margin-bottom: 0;
+}
+
+.securitas {
+  //flex: 0 0 0;
+  width: 300px;
+  height: 170px;
+  margin: 0;
+}
+
+.meng {
+  //flex: 0 0 0;
+  width: 300px;
+  height: 400px;
+  margin: 0;
+}
+
+.description {
+  display: inline-block;
+  flex: 1;
+  width: 550px;
+  vertical-align: top;
+  margin-left: 18px;
+  padding: 12px;
+}
+
+.jobname {
+  margin: 0 0 12px 0;
+  padding: 0;
+}
+
+.excerpt {
+  margin: 0;
+}
