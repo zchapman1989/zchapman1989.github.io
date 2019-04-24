@@ -25,14 +25,14 @@ export default () => (
     <Link to="/">Home</Link>
     <h1>Education</h1>
     <Education
-      schoolname="Brunswick High School"
-      school="https://i.imgur.com/2ddYpT7.jpg"
-      excerpt="Attended Brunswick High School in Brunswick Maine from 2004 to 2008. Received G.E.D from Merrymeeting Adult Education in 2011. "
-    />
-    <Education
       schoolname="Maine Army National Guard"
       leonardwood="https://i.imgur.com/r6nZQg3.jpg"
       excerpt="Attended Army Basic Training and Military Police OSUT at Fort Leonard Wood Missouri from September 2013 to February 2014."
+    />
+    <Education
+      schoolname="Brunswick High School"
+      school="https://i.imgur.com/2ddYpT7.jpg"
+      excerpt="Attended Brunswick High School in Brunswick Maine from 2004 to 2008. Received G.E.D from Merrymeeting Adult Education in 2011. "
     />
     <Link to="/">Home</Link>
   </Container>

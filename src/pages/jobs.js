@@ -7,11 +7,11 @@ const Job = props => (
   <div className={styles.job}>
     {
       props.securitas ?
-      <img src={props.securitas} className={styles.securitas} alt="" /> : null
+        <img src={props.securitas} className={styles.securitas} alt="" /> : null
     }
     {
       props.meng ?
-      <img src={props.meng} className={styles.meng} alt="" /> : null
+        <img src={props.meng} className={styles.meng} alt="" /> : null
     }
     <div className={styles.description}>
       <h2 className={styles.jobname}>{props.jobname}</h2>

@@ -6,14 +6,12 @@ import {Grid, Cell} from "styled-css-grid"
 import styled from "styled-components"
 
 const StyledCell= styled(Cell)`
-  color: blue;
   text-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
   text-shadow: #777 1px 1px 1px;
   position: relative;
-  curser: pointer;
   font-size: 40px;
   background-size: cover;
   background: url(${
@@ -56,6 +54,12 @@ const StyledCell= styled(Cell)`
 
   a {
     z-index: 1;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 200px;
+    color: #45a8f9;
   }
 
   a:-webkit-any-link{
@@ -63,7 +67,7 @@ const StyledCell= styled(Cell)`
   }
 
   a:visited{
-    color: orange;
+    color: red;
   }
 `;
 

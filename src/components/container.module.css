@@ -5,6 +5,11 @@
   font-size: 24px;
   border: 1px solid black;
 }
+
 .container > h1 {
   text-align: center;
+}
+
+.container a:-webkit-any-link {
+  text-decoration: none;
 }

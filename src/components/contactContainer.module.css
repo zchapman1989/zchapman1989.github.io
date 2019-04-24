@@ -1,9 +1,12 @@
-.ContactContainer {
-
+.contactContainer {
   width: 900px;
   margin-left: auto;
   margin-right: auto;
   font-size: 28px;
   text-align: center;
   border: 1px solid black
+}
+
+.contactContainer a:-webkit-any-link {
+  text-decoration: none;
 }
