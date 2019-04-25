@@ -59,7 +59,7 @@ const StyledCell= styled(Cell)`
     height: 100%;
     text-align: center;
     line-height: 200px;
-    color: #45a8f9;
+    color: #44c6ea;
   }
 
   a:-webkit-any-link{
